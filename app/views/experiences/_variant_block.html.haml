@@ -1,0 +1,10 @@
+%section.block#availability
+  %article.block-content.mb-5#tickets
+    %header.mb-3.mt-4
+      .d-flex.flex-row.align-items-center
+        %h4.m-0
+          = product.name
+          %hr{ style: "width:3rem;" }
+
+    = react_component "VariantBlock",
+      variants: serialize(product.ticket_types, each_serializer: VariantSerializer).as_json

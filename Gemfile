@@ -6,6 +6,8 @@ ruby '2.4.2'
 gem "haml-rails",  "~> 1.0"
 gem "jquery-rails"
 gem "jquery-ui-rails"
+gem "nested_form"
+gem "money-rails", "~>1"
 gem "pg",          "~> 0.18"
 gem "puma",        "~> 3.0"
 gem "redis"
